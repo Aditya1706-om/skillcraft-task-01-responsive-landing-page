@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Om Aditya for freelance, contract, or full-time opportunities.">
+    <title>Contact | Om Aditya Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- FIXED INTERACTIVE NAVIGATION MENU -->
+    <header>
+        <nav id="navbar" aria-label="Main Navigation">
+            <div id="scrollProgress" class="scroll-progress-bar" role="progressbar" aria-label="Scroll Progress"></div>
+
+            <a href="index.html#home" class="logo" id="navLogo">
+                <span class="logo-accent">OM</span>ADITYA
+                <span class="logo-dot"></span>
+            </a>
+
+            <div class="nav-container">
+                <ul class="nav-links" id="primaryNav">
+                    <li class="nav-item">
+                        <a href="index.html#home" class="nav-link" id="link-home">
+                            <span class="nav-link-text">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link" id="link-about">
+                            <span class="nav-link-text">About</span>
+                        </a>
+                    </li>
+                    <li class="nav-item has-dropdown">
+                        <a href="services.html" class="nav-link dropdown-toggle" id="link-services" aria-haspopup="true">
+                            <span class="nav-link-text">Services</span>
+                            <span class="dropdown-chevron">▼</span>
+                        </a>
+                        <div class="dropdown-menu" aria-label="Services Submenu">
+                            <a href="services.html" class="dropdown-item">
+                                <div class="dropdown-icon">⚡</div>
+                                <div class="dropdown-text">
+                                    <span class="dropdown-title">Web Development</span>
+                                    <span class="dropdown-desc">Modern & responsive apps</span>
+                                </div>
+                            </a>
+                            <a href="services.html" class="dropdown-item">
+                                <div class="dropdown-icon">☁️</div>
+                                <div class="dropdown-text">
+                                    <span class="dropdown-title">Cloud Solutions</span>
+                                    <span class="dropdown-desc">Scalable infrastructure</span>
+                                </div>
+                            </a>
+                            <a href="services.html" class="dropdown-item">
+                                <div class="dropdown-icon">🎨</div>
+                                <div class="dropdown-text">
+                                    <span class="dropdown-title">UI / UX Design</span>
+                                    <span class="dropdown-desc">Intuitive human experiences</span>
+                                </div>
+                            </a>
+                            <a href="services.html" class="dropdown-item">
+                                <div class="dropdown-icon">📱</div>
+                                <div class="dropdown-text">
+                                    <span class="dropdown-title">Software Engineering</span>
+                                    <span class="dropdown-desc">Robust code architectures</span>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="projects.html" class="nav-link" id="link-projects">
+                            <span class="nav-link-text">Projects</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link active" id="link-contact">
+                            <span class="nav-link-text">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-actions">
+                <div class="theme-picker" title="Switch Theme Accent" aria-label="Theme Color Switcher">
+                    <button class="theme-btn active" data-theme-name="cyan" title="Cyber Cyan" aria-label="Cyan theme"></button>
+                    <button class="theme-btn" data-theme-name="purple" title="Cyber Purple" aria-label="Purple theme"></button>
+                    <button class="theme-btn" data-theme-name="amber" title="Sunset Amber" aria-label="Amber theme"></button>
+                    <button class="theme-btn" data-theme-name="emerald" title="Emerald Wave" aria-label="Emerald theme"></button>
+                </div>
+
+                <a href="contact.html" class="nav-cta-btn" id="navCta">
+                    <span>Let's Talk</span> →
+                </a>
+
+                <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primaryNav">
+                    <div class="hamburger-lines">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="min-height: 85vh;">
+            <div class="section-content">
+                <p class="section-label">04 — CONTACT</p>
+                <h2>Let's build something <span>exceptional.</span></h2>
+                
+                <div class="contact-container">
+                    <div>
+                        <p class="section-desc" style="margin-bottom: 24px;">
+                            Reach out for project inquiries, freelance web architecture, or technical partnerships.
+                        </p>
+
+                        <ul class="contact-info-list">
+                            <li class="contact-info-item">
+                                <div class="contact-info-icon">📍</div>
+                                <div>
+                                    <strong>Location</strong>
+                                    <div>Greater Noida, Uttar Pradesh</div>
+                                </div>
+                            </li>
+                            <li class="contact-info-item">
+                                <div class="contact-info-icon">✉️</div>
+                                <div>
+                                    <strong>Email Address</strong>
+                                    <div><a href="mailto:omaditya3008@gmail.com" style="color: inherit; text-decoration: none;">omaditya3008@gmail.com</a></div>
+                                </div>
+                            </li>
+                            <li class="contact-info-item">
+                                <div class="contact-info-icon">⏱️</div>
+                                <div>
+                                    <strong>Response Time</strong>
+                                    <div>Within 24 business hours</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <form class="contact-form" onsubmit="event.preventDefault(); alert('Message successfully sent!');">
+                        <div class="form-group">
+                            <label for="contactName">Your Name</label>
+                            <input type="text" id="contactName" placeholder="e.g. Jane Doe" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactEmail">Email Address</label>
+                            <input type="email" id="contactEmail" placeholder="jane@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactMessage">Message</label>
+                            <textarea id="contactMessage" rows="4" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="justify-content: center; width: 100%;">
+                            Send Message →
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Om Aditya. Fixed navigation menu active across all pages.</p>
+        <ul class="footer-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
