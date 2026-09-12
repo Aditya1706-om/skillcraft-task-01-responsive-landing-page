@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Services and technical capabilities offered by Om Aditya.">
+    <title>Services | Om Aditya Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- FIXED INTERACTIVE NAVIGATION MENU -->
+    <header>
+        <nav id="navbar" aria-label="Main Navigation">
+            <div id="scrollProgress" class="scroll-progress-bar" role="progressbar" aria-label="Scroll Progress"></div>
+
+            <a href="index.html#home" class="logo" id="navLogo">
+                <span class="logo-accent">OM</span>ADITYA
+                <span class="logo-dot"></span>
+            </a>
+
+            <div class="nav-container">
+                <ul class="nav-links" id="primaryNav">
+                    <li class="nav-item">
+                        <a href="index.html#home" class="nav-link" id="link-home">
+                            <span class="nav-link-text">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link" id="link-about">
+                            <span class="nav-link-text">About</span>
+                        </a>
+                    </li>
+                    <li class="nav-item has-dropdown">
+                        <a href="services.html" class="nav-link active dropdown-toggle" id="link-services" aria-haspopup="true">
+                            <span class="nav-link-text">Services</span>
+                            <span class="dropdown-chevron">▼</span>
+                        </a>
+                        <div class="dropdown-menu" aria-label="Services Submenu">
+                            <a href="services.html" class="dropdown-item">
+                                <div class="dropdown-icon">⚡</div>
+                                <div class="dropdown-text">
+                                    <span class="dropdown-title">Web Development</span>
+                                    <span class="dropdown-desc">Modern & responsive apps</span>
+                                </div>
+                            </a>
+                            <a href="services.html" class="dropdown-item">
+                                <div class="dropdown-icon">☁️</div>
+                                <div class="dropdown-text">
+                                    <span class="dropdown-title">Cloud Solutions</span>
+                                    <span class="dropdown-desc">Scalable infrastructure</span>
+                                </div>
+                            </a>
+                            <a href="services.html" class="dropdown-item">
+                                <div class="dropdown-icon">🎨</div>
+                                <div class="dropdown-text">
+                                    <span class="dropdown-title">UI / UX Design</span>
+                                    <span class="dropdown-desc">Intuitive human experiences</span>
+                                </div>
+                            </a>
+                            <a href="services.html" class="dropdown-item">
+                                <div class="dropdown-icon">📱</div>
+                                <div class="dropdown-text">
+                                    <span class="dropdown-title">Software Engineering</span>
+                                    <span class="dropdown-desc">Robust code architectures</span>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="projects.html" class="nav-link" id="link-projects">
+                            <span class="nav-link-text">Projects</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link" id="link-contact">
+                            <span class="nav-link-text">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-actions">
+                <div class="theme-picker" title="Switch Theme Accent" aria-label="Theme Color Switcher">
+                    <button class="theme-btn active" data-theme-name="cyan" title="Cyber Cyan" aria-label="Cyan theme"></button>
+                    <button class="theme-btn" data-theme-name="purple" title="Cyber Purple" aria-label="Purple theme"></button>
+                    <button class="theme-btn" data-theme-name="amber" title="Sunset Amber" aria-label="Amber theme"></button>
+                    <button class="theme-btn" data-theme-name="emerald" title="Emerald Wave" aria-label="Emerald theme"></button>
+                </div>
+
+                <a href="contact.html" class="nav-cta-btn" id="navCta">
+                    <span>Let's Talk</span> →
+                </a>
+
+                <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primaryNav">
+                    <div class="hamburger-lines">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="min-height: 70vh;">
+            <div class="hero-content">
+                <div class="badge-tag">
+                    <span>✦</span> Services Page View
+                </div>
+                <h1>
+                    Specialized Services &
+                    <br>
+                    <span>Technical Solutions.</span>
+                </h1>
+                <p>
+                    Full-cycle digital product engineering from conceptual UX wireframing to high-performance web systems and database architecture.
+                </p>
+                <div class="hero-actions">
+                    <a href="projects.html" class="btn btn-primary">See Portfolio Projects →</a>
+                    <a href="contact.html" class="btn btn-secondary">Request a Quote</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section dark-section">
+            <div class="section-content">
+                <p class="section-label">FULL SERVICE OFFERINGS</p>
+                <h2>What I <span>Deliver</span></h2>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-icon">⚡</div>
+                        <h3>Interactive Web Frontends</h3>
+                        <p>Dynamic user interfaces with fluid navigation, reactive state, and glassmorphic aesthetics.</p>
+                        <span class="card-tag">CSS3 / ES6 / Web APIs</span>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">☁️</div>
+                        <h3>Scalable Backend Services</h3>
+                        <p>Secure REST APIs, database schemas, and cloud deployment pipelines designed for growth.</p>
+                        <span class="card-tag">Node.js / REST / Databases</span>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">📱</div>
+                        <h3>Cross-Platform Experience</h3>
+                        <p>Fluid responsiveness across smartphones, tablets, laptops, and ultra-high-resolution monitors.</p>
+                        <span class="card-tag">Responsive UI / UX</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Om Aditya. Fixed navigation menu active across all pages.</p>
+        <ul class="footer-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
