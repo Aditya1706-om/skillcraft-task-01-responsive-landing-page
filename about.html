@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Om Aditya - Software Engineer and Web Developer.">
+    <title>About | Om Aditya Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- FIXED INTERACTIVE NAVIGATION MENU -->
+    <header>
+        <nav id="navbar" aria-label="Main Navigation">
+            <div id="scrollProgress" class="scroll-progress-bar" role="progressbar" aria-label="Scroll Progress"></div>
+
+            <a href="index.html#home" class="logo" id="navLogo">
+                <span class="logo-accent">OM</span>ADITYA
+                <span class="logo-dot"></span>
+            </a>
+
+            <div class="nav-container">
+                <ul class="nav-links" id="primaryNav">
+                    <li class="nav-item">
+                        <a href="index.html#home" class="nav-link" id="link-home">
+                            <span class="nav-link-text">Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link active" id="link-about">
+                            <span class="nav-link-text">About</span>
+                        </a>
+                    </li>
+                    <li class="nav-item has-dropdown">
+                        <a href="services.html" class="nav-link dropdown-toggle" id="link-services" aria-haspopup="true">
+                            <span class="nav-link-text">Services</span>
+                            <span class="dropdown-chevron">▼</span>
+                        </a>
+                        <div class="dropdown-menu" aria-label="Services Submenu">
+                            <a href="services.html" class="dropdown-item">
+                                <div class="dropdown-icon">⚡</div>
+                                <div class="dropdown-text">
+                                    <span class="dropdown-title">Web Development</span>
+                                    <span class="dropdown-desc">Modern & responsive apps</span>
+                                </div>
+                            </a>
+                            <a href="services.html" class="dropdown-item">
+                                <div class="dropdown-icon">☁️</div>
+                                <div class="dropdown-text">
+                                    <span class="dropdown-title">Cloud Solutions</span>
+                                    <span class="dropdown-desc">Scalable infrastructure</span>
+                                </div>
+                            </a>
+                            <a href="services.html" class="dropdown-item">
+                                <div class="dropdown-icon">🎨</div>
+                                <div class="dropdown-text">
+                                    <span class="dropdown-title">UI / UX Design</span>
+                                    <span class="dropdown-desc">Intuitive human experiences</span>
+                                </div>
+                            </a>
+                            <a href="services.html" class="dropdown-item">
+                                <div class="dropdown-icon">📱</div>
+                                <div class="dropdown-text">
+                                    <span class="dropdown-title">Software Engineering</span>
+                                    <span class="dropdown-desc">Robust code architectures</span>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="projects.html" class="nav-link" id="link-projects">
+                            <span class="nav-link-text">Projects</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link" id="link-contact">
+                            <span class="nav-link-text">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-actions">
+                <div class="theme-picker" title="Switch Theme Accent" aria-label="Theme Color Switcher">
+                    <button class="theme-btn active" data-theme-name="cyan" title="Cyber Cyan" aria-label="Cyan theme"></button>
+                    <button class="theme-btn" data-theme-name="purple" title="Cyber Purple" aria-label="Purple theme"></button>
+                    <button class="theme-btn" data-theme-name="amber" title="Sunset Amber" aria-label="Amber theme"></button>
+                    <button class="theme-btn" data-theme-name="emerald" title="Emerald Wave" aria-label="Emerald theme"></button>
+                </div>
+
+                <a href="contact.html" class="nav-cta-btn" id="navCta">
+                    <span>Let's Talk</span> →
+                </a>
+
+                <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primaryNav">
+                    <div class="hamburger-lines">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="min-height: 70vh;">
+            <div class="hero-content">
+                <div class="badge-tag">
+                    <span>✦</span> About Page View
+                </div>
+                <h1>
+                    Driven by Curiosity &
+                    <br>
+                    <span>Clean Code.</span>
+                </h1>
+                <p>
+                    Notice how the fixed navigation bar remains positioned at the top across all pages. You can test hover states on each link, explore the dropdown, switch themes, or scroll to see the header transform seamlessly.
+                </p>
+                <div class="hero-actions">
+                    <a href="index.html" class="btn btn-primary">← Return to Landing Page</a>
+                    <a href="services.html" class="btn btn-secondary">Explore Services →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section dark-section">
+            <div class="section-content">
+                <p class="section-label">MY PHILOSOPHY</p>
+                <h2>Building scalable & <span>delightful web apps</span></h2>
+                <p class="section-desc">
+                    Every project begins with understanding human requirements, then transforming them into resilient architecture and smooth interactive interfaces.
+                </p>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-icon">⚡</div>
+                        <h3>Fast & Responsive</h3>
+                        <p>Interfaces built to render instantly on mobile, tablet, and ultra-wide displays.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🛡️</div>
+                        <h3>Reliable Code</h3>
+                        <p>Well-structured, maintainable code following modern web standards.</p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🎨</div>
+                        <h3>Pixel Perfection</h3>
+                        <p>Attentive to spacing, color balance, micro-interactions, and visual harmony.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Om Aditya. Fixed navigation menu active across all pages.</p>
+        <ul class="footer-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
